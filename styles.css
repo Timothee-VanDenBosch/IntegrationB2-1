@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   background-color: #BABABA;
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
@@ -179,6 +180,80 @@ section.section3 div {
   width: 100%;
 }
 
+section.section4 {
+  width: 100%;
+}
+
+section.section4 .commentaires {
+  background-color: #181818;
+  border-radius: 24px;
+  padding: 50px;
+  gap: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 16px;
+  width: 500px;
+}
+
+section.section4 .grand_container1,
+section.section4 .grand_container2,
+section.section4 .grand_container3 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+} 
+
+section.section4 .grand_container3 {
+justify-content: start;
+} 
+
+section.section4 p:not(.profils p) {
+font-size: 14px;
+}
+
+section.section4 .profils p {
+  font-size: 17px;
+  }
+
+  section.section4 .mini_container {
+    background-color: #CCCCCC;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 465px;
+    height: 149px;
+    overflow: hidden;
+    box-sizing: border-box;
+    clip-path: inset(0 0 0 0);
+  
+  }
+
+.profils {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.profils_img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.mini_container .name {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+}
+
 section.section5 {
   width: 100%;
 }
@@ -190,6 +265,7 @@ section.section5 {
   width: 100%;
   background-color: #ED513F;
   border-radius: 24px;
+  padding: 20px 0;
 }
 
 .number div {
